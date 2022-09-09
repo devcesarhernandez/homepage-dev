@@ -1,0 +1,19 @@
+.footer {
+	background-color: $secondary-color;
+	padding: 3em;
+	text-align: center;
+}
+
+.footer__redes {
+	a {
+		margin-left: 1em;
+	}
+}
+
+.footer__text {
+	margin-top: 1.2em;
+	color: $black-text;
+	a {
+		text-decoration: underline;
+	}
+}

@@ -1,0 +1,27 @@
+.categories {
+	display: flex;
+	flex-direction: column;
+}
+
+.category {
+  position: relative;
+}
+
+.category__img{
+  width: 100%;
+}
+.category__title {
+  position: absolute;
+  bottom: 1em;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white-color;
+  font-size: 2em;
+}
+
+@media (min-width: 575px){
+  .categories {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,30 @@
+.banner {
+	background-image: url('./assets/Descubre_tu_pasion.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: $white-color;
+	min-height: 500px;
+	height: 50vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.banner__title {
+	font-size: 3em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.banner__btn--primary {
+  @include boton;
+  
+  background-color: $primary-color;
+  color: $white-color;
+text-transform: uppercase;
+  
+  &:hover {
+    background-color: darken($primary-color, 15%)
+  }
+}

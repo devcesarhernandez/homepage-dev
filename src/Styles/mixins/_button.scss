@@ -1,0 +1,10 @@
+@mixin boton {
+  border-radius: 1.2em;
+  cursor: pointer;
+  display: inline-block;
+  font-size: $font-size;
+  padding: .8em 1.2em;
+  text-align: center;
+  vertical-align: top;
+  width: 280px;
+}

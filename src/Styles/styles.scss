@@ -1,0 +1,16 @@
+// Settings
+@import './base/variables';
+@import './base/reset';
+
+// Mixins
+@import './mixins/button';
+
+// Components
+@import './components/notification';
+@import './components/productos';
+@import './components/category';
+@import './components/producto';
+@import './components/header';
+@import './components/banner';
+@import './components/footer';
+@import './components/nav';

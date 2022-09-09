@@ -1,0 +1,48 @@
+.nav {
+	position: absolute;
+	top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	width: 100%;
+
+	> ul {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.drowpdown {
+	display: inline-block;
+	position: relative;
+	width: 80px;
+
+	&:hover .dropdown__content {
+		display: block;
+	}
+}
+
+.drowpdown__text {
+	&:after {
+		content: url('./assets/arrow.svg');
+		position: absolute;
+		margin-left: 0.8em;
+	}
+	
+}
+
+.dropdown__content {
+	display: none;
+	position: relative;
+	widht: 100%;
+	overflow: auto;
+
+	li {
+		display: block;
+		padding-top: .5em;
+		text-align: left;
+
+		&:hover {
+			color: $secondary-color;
+		}
+	}
+}
